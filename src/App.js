@@ -7,7 +7,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+import Reservations from './components/Reservations';
+import Concessionaires from './components/Concessionaires';
+import Vehicles from './components/Vehicles';
 
 function App() {
   return (
@@ -16,7 +18,15 @@ function App() {
         <Navbar>
         </Navbar>
         <Switch>
-
+          <Route exact path="/reservas">
+            <Reservations/>
+          </Route>
+          <Route exact path="/vehiculos">
+            <Vehicles/>
+          </Route>
+          <Route exact path="/concesionarios">
+            <Concessionaires/>
+          </Route>
         </Switch>
       </Router>
     </div>

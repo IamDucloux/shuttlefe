@@ -15,6 +15,10 @@ body{
     padding: 0;
 }
 
+h1{
+    text-align: center;
+}
+
 .App{
     height: 100%;
     width: 100%;
