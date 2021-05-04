@@ -10,6 +10,7 @@ import {
 import Reservations from './components/Reservations';
 import Concessionaires from './components/Concessionaires';
 import Vehicles from './components/Vehicles';
+import axios from 'axios'
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
         <Navbar>
         </Navbar>
         <Switch>
+          <Route exact path="/">
+            <div className="welcome_card">
+            <h1>Bienvenido a Shuttle</h1>
+            <h3>By Ian Ducloux</h3>
+            </div>
+          </Route>
           <Route exact path="/reservas">
             <Reservations/>
           </Route>

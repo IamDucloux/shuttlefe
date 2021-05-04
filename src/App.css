@@ -1,9 +1,13 @@
+/* font-family: 'Jura', sans-serif;
+font-family: 'Krona One', sans-serif; */
+
 
 html{
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Jura', sans-serif;
 }
 
 
@@ -15,7 +19,12 @@ body{
     padding: 0;
 }
 
-h1{
+h1, h2, h3, h4, h5 {
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+h1, h2 {
     text-align: center;
 }
 
@@ -24,6 +33,16 @@ h1{
     width: 100%;
     margin: 0;
 }
+
+.welcome_card{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
 
 
 Navbar{
