@@ -21,7 +21,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <div className="welcome_card">
-            <h1>Bienvenido a Shuttle</h1>
+            <h1>Bienvenido a Shuttle <span>🚀</span></h1>
             <h3>By Ian Ducloux</h3>
             </div>
           </Route>
