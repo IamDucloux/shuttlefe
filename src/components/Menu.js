@@ -10,9 +10,9 @@ const Menu = () => {
     return (
         <div className="menu_list">
             <ul>
-                <li><Link to="/reservas">Reservar</Link></li>
-                <li><Link to="/concesionarios">Concesionarios</Link></li>
-                <li><Link to="/Vehiculos">Vehiculos</Link></li>
+                <Link to="/reservas"><li>Reservar</li></Link>
+                <Link to="/concesionarios"><li>Concesionarios</li></Link>
+                <Link to="/Vehiculos"><li>Vehiculos</li></Link>
             </ul>
         </div>
     )

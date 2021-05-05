@@ -28,6 +28,10 @@ h1, h2 {
     text-align: center;
 }
 
+input {
+    border-radius: 4px;
+}
+
 .App{
     height: 100%;
     width: 100%;
@@ -44,7 +48,7 @@ h1, h2 {
     padding: 20px;
     border: 2px solid black;
     border-radius: 8px;
-    box-shadow: 2px 2px black;
+    box-shadow: 0 10px 6px -6px #777;
     background: linear-gradient(63.18deg, #5D6FCB 0%, #09F0B9 100%);
     text-align: center;
     align-self: center;
@@ -86,9 +90,9 @@ Navbar img{
     font-weight: bold;
     margin: 10px;
     padding: 10px;
-    border: 1px solid black;
+
     border-radius: 12px;
-    box-shadow: 1px 2px black;
+    box-shadow: 0 10px 6px -6px #777;
     
 }
 
@@ -102,4 +106,30 @@ a{
     color: black;
 }
 
+.main_content{
+    padding: 0 20px 0 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 25%);
+
+    
+}
+
+.Calendar_container{
+    margin: 20px 0 20px 0;
+}
+
+.calendar_card{
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #bdc3c7;
+    box-shadow: 0 10px 6px -6px #777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+
+}
 

@@ -18,23 +18,25 @@ function App() {
       <Router>
         <Navbar>
         </Navbar>
-        <Switch>
-          <Route exact path="/">
-            <div className="welcome_card">
-            <h1>Bienvenido a Shuttle <span>🚀</span></h1>
-            <h3>By Ian Ducloux</h3>
-            </div>
-          </Route>
-          <Route exact path="/reservas">
-            <Reservations/>
-          </Route>
-          <Route exact path="/vehiculos">
-            <Vehicles/>
-          </Route>
-          <Route exact path="/concesionarios">
-            <Concessionaires/>
-          </Route>
-        </Switch>
+        <div className="main_content">
+          <Switch>
+            <Route exact path="/">
+              <div className="welcome_card">
+                <h1>Bienvenido a Shuttle <span>🚀</span></h1>
+                <h3>By Ian Ducloux</h3>
+              </div>
+            </Route>
+            <Route exact path="/reservas">
+              <Reservations />
+            </Route>
+            <Route exact path="/vehiculos">
+              <Vehicles />
+            </Route>
+            <Route exact path="/concesionarios">
+              <Concessionaires />
+            </Route>
+          </Switch>
+        </div>
       </Router>
     </div>
   );
