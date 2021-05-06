@@ -17,6 +17,11 @@ const Reservations = () => {
             </div>
             <div className="cars_list">
                 <h4>Vehiculos Disponibles</h4>
+                <ul>
+                    <li>
+                        <Vehicle></Vehicle>
+                    </li>
+                </ul>
             </div>
         </div>
 
